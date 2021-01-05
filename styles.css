@@ -12,18 +12,33 @@ body {
 
 .container {
   display: block;
-  width: 50%;
+  width: 40%;
   margin: auto;
 
 }
 
-.btn {
+.btn-color {
   margin: 25px;
   display: inline-block;
   height: 200px;
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+
+.col-md-6{
+  padding: 0 0 3% 0;
+}
+
+.col-sm-12{
+  margin-top: 10%;
+}
+
+#start-btn{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #FEF2BF;
 }
 
 .game-over {
