@@ -13,6 +13,7 @@ $(document).on("keydown", function() {
     setTimeout(function() {
       nextSequence();
     }, 1000);
+    $("#start-btn").hide();
   }
 })
 
